@@ -1,0 +1,57 @@
+.tourPage{
+    background-color: #F0F4F8;
+    width: 100%;
+    margin: 0px;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgTour{
+    width: 100%;
+    height: 20rem;
+}
+
+.cardInfo{
+    padding: 20px;
+}
+
+.cardInfo h4{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.infoDesc{
+    color: #617d98;
+}
+
+.spanRead{
+    color: rgb(0, 161, 215);
+}
+
+.pr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.prBtn{
+    background-color: #EAF6FF !important;
+}
+
+.ntBtn{
+    text-align: center;
+    margin-top: 20px !important;
+}
+
+.nt{
+    display: flex;
+    justify-content: center;
+}
+
+.ntBtn:hover{
+    color: #617d98;
+}

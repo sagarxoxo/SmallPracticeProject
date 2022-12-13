@@ -1,0 +1,24 @@
+.birthDyPage{
+    background-color: #8a2be2;
+    height: 100vh;
+}
+
+.imgRes{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.singleInfo{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
