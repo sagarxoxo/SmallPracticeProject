@@ -16,6 +16,10 @@ function Home(){
         BR: "Reviews",
         linkName: "reviews",
     },
+    {
+        BR: "Menu",
+        linkName: "menus",
+    },
 ]
     return (
         <div className='homePage'>

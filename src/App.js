@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import BirthdayReminder from './Pages/Birthday Reminder/BirthdayReminder';
 import Tours from './Pages/Tours/Tours';
 import Reviews from './Pages/Reviews/Reviews';
+import Menu from './Pages/Menu/Menu';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/birthday-reminder" exact element={<BirthdayReminder />}></Route>
         <Route path="/tours" exact element={<Tours />}></Route>
         <Route path="/reviews" exact element={<Reviews />}></Route>
+        <Route path="/menus" exact element={<Menu />}></Route>
       </Routes>
     </BrowserRouter>
   );
