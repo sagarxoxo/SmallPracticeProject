@@ -8,3 +8,25 @@
     flex-direction: column;
     align-items: center;
 }
+
+.reviewPage img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.rndBtn{
+    margin-top: 0.5rem !important;
+    background: #ebf7ff !important;
+    padding: 0.25rem 0.5rem !important;
+    text-transform: capitalize !important;
+    border-radius: 0.25rem !important;
+    transition: all .3s linear !important;
+    border-color: transparent !important;
+    cursor: pointer !important;
+}
+
+.btnBun{
+    text-align: center;
+}
