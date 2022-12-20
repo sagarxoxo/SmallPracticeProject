@@ -6,3 +6,16 @@
     padding: 100px 0px;
     text-align: center;
 }
+
+.imgFod{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 4px solid #1987E0;
+}
+
+.cradContainer{
+    margin: 0px 300px;
+}
+
