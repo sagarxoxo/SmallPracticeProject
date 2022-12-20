@@ -20,6 +20,10 @@ function Home(){
         BR: "Menu",
         linkName: "menus",
     },
+    {
+        BR: "Experience",
+        linkName: "experience",
+    },
 ]
     return (
         <div className='homePage'>
