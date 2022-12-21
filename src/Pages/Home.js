@@ -1,43 +1,44 @@
 import { Button, Grid } from "@mui/material";
 import React from "react";
 
-function Home(){
-
-    const data = [
-        {
-        BR: "Birthday Reminder",
-        linkName: "birthday-reminder",
+function Home() {
+  const data = [
+    {
+      BR: "Birthday Reminder",
+      linkName: "birthday-reminder",
     },
     {
-        BR: "Tours",
-        linkName: "tours",
+      BR: "Tours",
+      linkName: "tours",
     },
     {
-        BR: "Reviews",
-        linkName: "reviews",
+      BR: "Reviews",
+      linkName: "reviews",
     },
     {
-        BR: "Menu",
-        linkName: "menus",
+      BR: "Menu",
+      linkName: "menus",
     },
     {
-        BR: "Experience",
-        linkName: "experience",
+      BR: "Experience",
+      linkName: "experience",
     },
-]
-    return (
-        <div className='homePage'>
-        <Grid container spacing={2}>
-        {data.map(linkdata => {
-            return (
-                <Grid item lg={3}>
-                    <Button href={linkdata.linkName} variant="contained">{linkdata.BR}</Button>
-                </Grid>
-            )
+  ];
+  return (
+    <div className="homePage">
+      <Grid container spacing={2}>
+        {data.map((link) => {
+          return (
+            <Grid item lg={3}>
+              <Button href={link.linkName} variant="contained">
+                {link.BR}
+              </Button>
+            </Grid>
+          );
         })}
-        </Grid>
-        </div>
-    )
+      </Grid>
+    </div>
+  );
 }
 
 export default Home;
