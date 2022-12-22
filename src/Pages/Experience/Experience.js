@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Experience.css";
 
 export default function Experience() {
+  const [exData, ExData] = useState();
+
+  useEffect(() => {
+    const res = fetch("https://course-api.com/react-tabs-project");
+    const data = res.json();
+    ExData(data);
+  }, []);
+
+  console.log(data);
+
   return (
     <div className="exPage">
       <h1 className="text-5xl font-bold">Experience</h1>
