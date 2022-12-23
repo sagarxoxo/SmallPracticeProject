@@ -23,6 +23,10 @@ function Home() {
       BR: "Experience",
       linkName: "experience",
     },
+    {
+      BR: "ParaGenerator",
+      linkName: "para-generator",
+    },
   ];
   return (
     <div className="homePage">
